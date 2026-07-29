@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoLine Motors — проверенные автомобили с историей</title>
+  <meta name="description" content="AutoLine Motors — автосалон подержанных автомобилей. Проверка истории, гарантия и помощь с оформлением." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">AutoLine<span>Motors</span></a>
+    <nav class="nav" aria-label="Навигация">
+      <a href="#catalog">Каталог</a>
+      <a href="#why">Почему мы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+74951234567">+7 (495) 123-45-67</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="AutoLine Motors">
+      <div class="hero__media" data-parallax aria-hidden="true"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__rays" aria-hidden="true"></div>
+      <canvas class="hero__particles" aria-hidden="true"></canvas>
+      <div class="hero__content">
+        <p class="hero__brand" data-split>AutoLine Motors</p>
+        <h1 class="hero__title">Найди свой автомобиль</h1>
+        <p class="hero__subtitle">
+          Проверенные авто с прозрачной историей — без сюрпризов после покупки.
+        </p>
+        <a class="btn magnet" href="#catalog">Смотреть каталог</a>
+      </div>
+    </section>
+
+    <section id="catalog" class="section catalog reveal">
+      <div class="section__head">
+        <p class="eyebrow">Каталог</p>
+        <h2>Автомобили в наличии</h2>
+      </div>
+      <div class="catalog__grid reveal-stagger">
+        <article class="car-card glare spotlight">
+          <div class="car-card__media">
+            <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80" alt="Toyota Camry" loading="lazy" width="900" height="560" />
+          </div>
+          <div class="car-card__body">
+            <h3>Toyota Camry</h3>
+            <p class="car-card__meta">2019 · 68 000 км</p>
+            <p class="car-card__price">1 450 000 ₽</p>
+          </div>
+        </article>
+        <article class="car-card glare spotlight">
+          <div class="car-card__media">
+            <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=900&q=80" alt="BMW 5 Series" loading="lazy" width="900" height="560" />
+          </div>
+          <div class="car-card__body">
+            <h3>BMW 520d</h3>
+            <p class="car-card__meta">2018 · 94 000 км</p>
+            <p class="car-card__price">2 190 000 ₽</p>
+          </div>
+        </article>
+        <article class="car-card glare spotlight">
+          <div class="car-card__media">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Porsche Panamera" loading="lazy" width="900" height="560" />
+          </div>
+          <div class="car-card__body">
+            <h3>Porsche Panamera</h3>
+            <p class="car-card__meta">2018 · 71 000 км</p>
+            <p class="car-card__price">4 250 000 ₽</p>
+          </div>
+        </article>
+        <article class="car-card glare spotlight">
+          <div class="car-card__media">
+            <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=900&q=80" alt="Ford Mustang" loading="lazy" width="900" height="560" />
+          </div>
+          <div class="car-card__body">
+            <h3>Ford Mustang</h3>
+            <p class="car-card__meta">2020 · 38 000 км</p>
+            <p class="car-card__price">3 150 000 ₽</p>
+          </div>
+        </article>
+        <article class="car-card glare spotlight">
+          <div class="car-card__media">
+            <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=900&q=80" alt="Audi A6" loading="lazy" width="900" height="560" />
+          </div>
+          <div class="car-card__body">
+            <h3>Audi A6</h3>
+            <p class="car-card__meta">2017 · 112 000 км</p>
+            <p class="car-card__price">1 990 000 ₽</p>
+          </div>
+        </article>
+        <article class="car-card glare spotlight">
+          <div class="car-card__media">
+            <img src="https://images.unsplash.com/photo-1485291571150-772bcfc10da5?auto=format&fit=crop&w=900&q=80" alt="Mercedes-Benz C-Class" loading="lazy" width="900" height="560" />
+          </div>
+          <div class="car-card__body">
+            <h3>Mercedes-Benz C180</h3>
+            <p class="car-card__meta">2019 · 76 000 км</p>
+            <p class="car-card__price">2 240 000 ₽</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="why" class="section why reveal">
+      <div class="section__head">
+        <p class="eyebrow">Преимущества</p>
+        <h2>Почему AutoLine Motors</h2>
+      </div>
+      <div class="why__grid reveal-stagger">
+        <article class="why-card">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M9 11l3 3L22 4" />
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+            </svg>
+          </div>
+          <h3>Проверка истории</h3>
+          <p>Полный отчёт: ДТП, владельцы, ограничения и пробег.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3>Гарантия</h3>
+          <p>Юридическая чистота и техгарантия до 6 месяцев.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <path d="M14 2v6h6" />
+              <path d="M8 13h8M8 17h5" />
+            </svg>
+          </div>
+          <h3>Помощь с оформлением</h3>
+          <p>Кредит, trade-in и регистрация — берём на себя.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews reveal">
+      <div class="section__head">
+        <p class="eyebrow">Отзывы</p>
+        <h2>Что говорят клиенты</h2>
+      </div>
+      <div class="reviews__grid reveal-stagger">
+        <blockquote class="review-card">
+          <p>«Взял Camry за день. Всё прозрачно: история, осмотр, договор без воды.»</p>
+          <footer>— Алексей М.</footer>
+        </blockquote>
+        <blockquote class="review-card">
+          <p>«Искали семейный кроссовер. Помогли с кредитом, без навязанных опций.»</p>
+          <footer>— Марина и Игорь</footer>
+        </blockquote>
+        <blockquote class="review-card">
+          <p>«После другой площадки — как другой уровень. Честные цифры и сервис.»</p>
+          <footer>— Дмитрий К.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts reveal">
+      <div class="section__head">
+        <p class="eyebrow">Контакты</p>
+        <h2>Приезжайте или напишите</h2>
+      </div>
+      <div class="contacts__layout">
+        <div class="contacts__info">
+          <div class="contact-block">
+            <h3>Адрес</h3>
+            <p>пр. Ленина, 45<br />Москва</p>
+          </div>
+          <div class="contact-block">
+            <h3>Часы работы</h3>
+            <p>Ежедневно<br />10:00–21:00</p>
+          </div>
+          <div class="contact-block">
+            <h3>Телефон</h3>
+            <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+          </div>
+          <div class="contact-block">
+            <h3>Мессенджеры</h3>
+            <div class="socials">
+              <a href="#">WhatsApp</a>
+              <a href="#">Telegram</a>
+            </div>
+          </div>
+        </div>
+        <form class="callback" action="#" method="post">
+          <h3>Обратный звонок</h3>
+          <p class="callback__hint">Оставьте номер — перезвоним в течение 15 минут.</p>
+          <label class="field">
+            <span>Имя</span>
+            <input type="text" name="name" placeholder="Как к вам обращаться" autocomplete="name" required />
+          </label>
+          <label class="field">
+            <span>Телефон</span>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required />
+          </label>
+          <button class="btn btn--block magnet" type="submit">Жду звонка</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> AutoLine Motors</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
